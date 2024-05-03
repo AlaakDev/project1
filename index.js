@@ -22,6 +22,7 @@ function populateCurrencies() {
 }
 
 populateCurrencies();
+
 function convert() {
   const amount = Number(input.value);
   const from = fromCurrency.value;
