@@ -27,13 +27,16 @@ function convert() {
   const amount = Number(input.value);
   const from = fromCurrency.value;
   const to = toCurrency.value;
+  const urlFrom=from.slice(0,3);
+  const urlTo=to.slice(0,3)
 
   if (!amount || !from || !to) {
     result.textContent = "Please fill in all fields.";
     return;
   }
 
-  const url = `https://v6.exchangerate-api.com/v6/cc54afd12bb7c5e0b2316b7f/pair/${from}/${to}/${amount}`;
+  const url = `https://v6.exchangerate-api.com/v6/cc54afd12bb7c5e0b2316b7f/pair/${urlFrom}/${urlTo}/${amount}`;
+
 
   fetch(url)
     .then(res => res.json())
