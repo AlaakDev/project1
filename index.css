@@ -9,7 +9,6 @@
 body{
     background-color: orange;
 }
-
 .topdiv {
     width: 90%;
     max-width: 25em;
@@ -30,24 +29,19 @@ body{
 .logoo{
     width: 9.7em;
 }
-
-label {
-    display: block;
-    font-weight: 610;
-}
-input#amount {
-   font-weight: 400;
+input#input {
+   font-weight: 410;
    font-size: 1.2em;
    display: block;
    width: 100%;
-   border-bottom: 2px solid black;
-   color: orange;
+   border-bottom: 4px solid green;
+   color: black;
    margin-bottom: 2em;
    padding: 0.5em; 
 }
-input#amount:focus {
-    color: orange;
-    border-color: orange;
+input#input:focus {
+    color: black;
+    border-color: green;
 }
 .dropdowns {
     display: flex;
@@ -60,6 +54,7 @@ select {
     width: 100%;
     padding: 0.6em;
     font-size: 1em;
+    font-weight: 610;
     border-radius: 0.2em;
     appearance: none;
     -webkit-appearance: none;
@@ -68,8 +63,8 @@ select {
     background-repeat: no-repeat;
     background-position: right 15px top 50%, center;
     background-size: 20px 20px;
-    background-color: orange;
-    color: antiquewhite;
+    background-color:orange;
+    color: black;
 }
 
 button {
@@ -79,16 +74,23 @@ button {
     padding: 1em 0;
     margin-top: 2em;
     border-radius: 0.3em;
-    color: antiquewhite;
+    color: black;
     font-weight: 610;
 }
 
 #result {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
-    color: black;
+    color:green;
     background-color: antiquewhite;
     padding: 0.8em 0;
+}
+
+select:hover{
+    background-color: green;
+}
+button:hover{
+    background-color: green;
 }
 
