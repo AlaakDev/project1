@@ -57,10 +57,10 @@ select {
     font-size: 1em;
     font-weight: 610;
     border-radius: 0.2em;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url("arrow-down.svg");
+     /*appearance: none; */
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*background-image: url("arrow-down.svg");*/
     background-repeat: no-repeat;
     background-position: right 15px top 50%, center;
     background-size: 20px 20px;
