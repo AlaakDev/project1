@@ -35,7 +35,7 @@ function convert() {
     return;
   }
 
-  const url = `https://v6.exchangerate-api.com/v6/cc54afd12bb7c5e0b2316b7f/pair/${urlFrom}/${urlTo}/${amount}`;
+const url = `https://v6.exchangerate-api.com/v6/cc54afd12bb7c5e0b2316b7f/pair/${urlFrom}/${urlTo}/${amount}`;
 
 
 fetch(url)
