@@ -39,4 +39,4 @@ Contributions
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 Acknowledgments
-Special thanks to the creators of the ExchangeRate-API for providing real-time exchange rate data.
+Special thanks to the creators of the ExchangeRate-API for providing real time exchange rate data.
